@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            // FLAT / FLATMAP
+           const movies = [
+               [ 'Van Helsing', 'Constantine', 'Dredd', ['Resident Evil', 'Resident Evil II'] ], // horror
+               [ 'Sr. & Sra. Smith', 'Jumper', 'Prince of Persia: The Sands of Time', [ 'Harry Potter', 'Harry Potter II'] ], // fantasy
+               [ 'Inception' ] // intelligent
+            ];
+
+            console.log(movies);
+            // merge arrays 1 subnivel
+            console.log(movies.flat());
+            // merge arrays 2 subnivel
+            console.log(movies.flat(2));
+        </script>
+    </body>
+</html>
